@@ -1,0 +1,48 @@
+.section {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 400px;
+    padding: 50px 0 50px 50px;
+    margin-left: -325px;
+    transition-duration: 0.3s;
+}
+
+.section:hover {
+    margin: 0;
+    .menu {
+        opacity: 0;
+    }
+}
+
+.item {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.point {
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border: 1px solid black;
+    transform: rotate(45deg);
+}
+
+.text:hover,
+.text:focus {
+    color: rgb(255, 214, 138);
+}
+
+.menu {
+    width: 120px;
+    height: 80px;
+    color: white;
+    transform: rotate(90deg);
+    margin-left: 200px;
+    opacity: 1;
+}
+
+.menu:hover {
+    opacity: 0;
+}
